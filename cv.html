@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Curriculum vitae</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1><strong> Mi CV-Inés Herlein</strong></h1>
+  <header>
+        <ul>
+          <li><a class="nav-link scrollto" href="#about"><strong> Acerca de</strong> </a></li>
+          <li><a class="nav-link scrollto" href="#services"><strong> Servicios</strong> </a></li> 
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <iframe width="100" height="100" src="https://www.youtube.com/embed/8q6rheO8EX0" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>        
+  </header>
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row"> 
+      <div class="box-shadow-full"> 
+      <div class="row"> 
+      <div class="col-md-6"> 
+      <div class="row"> 
+        <img src="https://img.freepik.com/foto-gratis/mujer-joven-rubia-confiada-brazos-cruzados-que-oponen-al-fondo-blanco_23-2148028933.jpg" 
+        jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb pT0Scc KAlRDb" alt="Fotos de Mujer, +6.443.000 Fotos de stock gratuitas de gran calidad" 
+        data-noaft="1" style="width: 482px; height: 321.847px; margin: 45.1767px 0px;">
+    </div>
+    <section>
+      <p>Click the button to get your coordinates.</p>
+      <button onclick="getLocation()">Geolocalización-Try It</button>
+      <p id="demo"></p>
+      <script>
+      var x = document.getElementById("demo");
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+          x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+      }
+      function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude + 
+        "<br>Longitude: " + position.coords.longitude;
+      }
+      </script>
+    </section>
+      <div class="col-sm-6 col-md-7">  
+      <div class="about-info">
+    <p id="demo">
+	  </p>
+	  <script>
+           const persona = '{"nombre":"Inés Herlein", "edad":30, "nacionalidad":"argentina"}';
+           const obj = JSON.parse(persona);
+		   console.log(obj);
+           document.getElementById("demo").innerHTML = 
+		   "Nombre: "+obj.nombre+
+		   "|Edad: "+obj.edad+
+		   "|Nacionalidad: "+obj.nacionalidad;
+	  </script>
+      <p><span class="title-s">Profesión: </span> <span>Desarrolladora Web</span></p>
+      <p><span class="title-s">Email: </span> <span>inesherlein-desarrolladorafrontend@gmail.com</span></p>
+      <p><span class="title-s">Celular: </span> <span>(011)145352456</span></p>
+    </div>
+    </div>
+      <div class="skill-mf">
+      <p class="title-s"><strong> Habilidades</strong></p>
+      <span>HTML</span> <span class="pull-right">85%</span>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+      <span>CSS3</span> <span class="pull-right">75%</span>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+      <span>PHP</span> <span class="pull-right">50%</span>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+      <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    </div>
+    </div>
+      <div class="col-md-6">
+      <div class="about-me pt-4 pt-md-0">
+      <div class="title-box-2">
+        <h5 class="title-left">
+        <strong> Acerca de</strong> 
+        </h5>
+    </div>
+      <p class="lead">
+      <strong> Hola, Tengo amplios conocimientos de HTML, JavaScript, CSS y PHP; combinado con habilidades de comunicación y resolución de problemas.
+En mi puesto actual como desarrollador web junior en 123 Technologies, diseño, codifico e implemento sitios web para diversos clientes. En mi último proyecto, rediseñé un sitio web para una empresa de software de privacidad, que ayudó a aumentar sus ventas en un 25% este trimestre. Al trabajar en colaboración con los equipos de marketing, diseño y producto, he desarrollado fuertes habilidades de comunicación y trabajo en equipo. 
+Siempre me ha apasionado el desarrollo web, lo que me llevó a obtener una Tecnicatura en Informática. Busco constantemente nuevas tecnologías y me mantengo al día de las tendencias del sector.
+      </strong> 
+      </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="services" class="services-mf pt-5 route">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+    <div class="title-box text-center">
+    <h3 class="title-a">
+    <strong> Servicios</strong> 
+    </h3>
+    <p class="subtitle-a">
+    <strong> Incorporar un Front end Developer a la empresa permite que le puedas dar vida al diseño visual estático 
+      de tu página web. Incorporará definiciones de etapas previas a un código fluido y semántico. Además, 
+      construir un HTML semántico te ayudará a tener más visibilidad para los usuarios y optimización en 
+      buscadores.</strong>  
+    </p>
+    <div class="line-mf"></div>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="service-box">
+    <div class="service-ico">
+    <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+    </div>
+    <div class="service-content">
+    <h2 class="s-title"><strong> Diseño Web</strong></h2>
+    <p class="s-description text-center">
+    <strong> El diseño web es un área enfocada en el desarrollo de interfaces digitales, como el diseño de sitios y 
+      aplicaciones para web. Para ello, los diseñadores web crean las páginas utilizando lenguajes de marcado 
+      como HTML. </strong> 
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="service-box">
+    <div class="service-ico">
+    <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+    </div>
+    <div class="service-content">
+    <h2 class="s-title"><strong>Desarrollador Web</strong></h2>
+    <p class="s-description text-center">
+    <strong>Un desarrollador web es un especialista que posee los conocimientos necesarios para la creación y 
+      mantenimiento de sitios web. En términos generales, el desarrollador web se ocupa de diseñar los sitios 
+      y desarrollar sus funciones, esto mediante lenguajes de programación y softwares especializados.</strong>                    
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="service-box">
+    <div class="service-ico">
+    <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+    </div>
+    <div class="service-content">
+    <h2 class="s-title"><strong> Diseño Responsivo</strong></h2>
+    <p class="s-description text-center">
+    <strong>Utilizamos el término “responsive” (adaptable), nos referimos principalmente a “responsive design”
+      (diseño web adaptable). Esto significa hacer que un sitio web sea accesible y adaptable en todos los 
+      devices: tabletas, smartphones, etc.</strong>           
+    </p>
+    </div>
+    </div>
+    </div> 
+  <nav>
+    <p>Gracias por dedicar tiempo a revisar mis cualificaciones.</p>
+    <p>Saludos cordiales.</p>
+    <button type="button" id="boton_color">cambiar color de fondo</button>
+    <button type="button" id="boton_default">restablecer color de fondo</button>
+    <script src="js/function.js"></script>
+  </nav>
+</body>
+</html>
